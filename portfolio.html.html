@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Portfolio </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Courier New', monospace; }
+
+    body {   background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);}
+
+    .matrix { display: none; }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero img { width: 210px; height: 210px; border-radius: 50%; border: 4px solid #ccc; box-shadow: none; object-fit: cover; transition: 0.3s; }
+
+    .hero img:hover { transform: scale(1.05); box-shadow: none; }
+.name {
+    margin-top: 35px;
+    font-size: 2.8rem;
+    color: #0ad253;
+    text-shadow: none;
+    transition: 0.3s ease;
+}
+
+.name:hover {
+    transform: scale(1.05);
+    box-shadow: none;
+}
+
+
+    
+
+    .role {
+      font-size: 1.4rem;
+      margin-top: 12px;
+      opacity: 0.85;
+      color: #04f7ff;
+      text-shadow: none;
+      transition: 0.3 ease;
+    }
+    .rolee {
+      font-size: 1.4rem;
+      margin-top: 12px;
+      opacity: 0.85;
+      color: #04f7ff;
+      text-shadow: none;
+      transition: 0.3 ease;
+    }
+    .roleee {
+      font-size: 1.4rem;
+      margin-top: 12px;
+      opacity: 0.85;
+      color: #04f7ff;
+      text-shadow: none;
+      transition: 0.3 ease;
+    }
+    .role:hover
+    {
+       transform: scale(1.05) rotate(-2deg);
+    }
+    .rolee:hover{
+      
+       transform: scale(1.05) rotate(-2deg);
+    }
+    .roleee:hover{
+      
+       transform: scale(1.05) rotate(-2deg);
+    }
+
+  
+    .section {
+  width: 90%;
+  margin: 40px auto;
+  padding: 40px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  backdrop-filter: none;
+  animation: none;
+  transition: 0.3s ease;
+}
+
+.section:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 18px rgba(0,0,0,0.25);
+  border-radius: 30px;  
+}
+
+    
+
+
+    .section h2 { font-size: 2rem; margin-bottom: 15px; color:#333; text-shadow:none; }
+  
+
+    .section p, .section li {
+      font-size: 1.2rem;
+      line-height: 1.7rem;
+    }
+
+    ul li { margin: 10px 0; }
+
+    .icon-title {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+
+    .footer { background:#ffffff; border-top:1px solid #ddd; padding:40px; margin-top:60px; text-align:center; }
+
+    .footer div { font-size: 1.1rem; margin: 12px 0; }
+    .footer div:hover {
+    
+    transform: scale(1.05) 
+  
+    }
+
+    .reserved { margin-top:20px; font-size:1rem; color:#444; }
+  .video-grid, .gaming-grid, .edu-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+        margin-top: 20px;
+        justify-items: center;
+    }
+    .video-card, .gaming-card, .edu-card {
+        width: 250px;
+        height: 250px;
+        background: #ffffff10;
+        padding: 20px;
+        border-radius: 20px;
+        border: 1px solid #cccccc;
+        text-align: center;
+        font-size: 1.1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s ease;
+        backdrop-filter: blur(6px);
+    }
+    .video-card:hover, .gaming-card:hover, .edu-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        border-color: #999;
+    }
+    a {
+  text-decoration: none;
+  color: inherit;
+}
+</style>
+</head>
+<body>
+
+  <div class="matrix"></div>
+
+  <div class="hero">
+ <a href="intro.html" target="_blank">
+    <img src="b.jpg.jpg" alt="Profile Photo"></a>
+    <a href="intro.html" target="_blank">
+    <div class="name">PRAJWAL GYAWALI</div></a>
+    <div class="role">• Programmer  <br></div>
+      <div class="rolee"> • Web Designer <br></div> <div class="roleee"> • Digital Creator</div>
+  
+  <div class="section"><a href="intro.html" target="_blank">
+    <h2 class="icon-title"><i class="fa-solid fa-user-secret"></i> INTRODUCTION</h2></a>
+    <p> Hi! I am Prajwal, A simple student learning to create websites for fun .</p>
+  </div>
+
+  <div class="section"><a href="background.html" target="_blank">
+    <h2 class="icon-title"><i class="fa-solid fa-code"></i> BACKGROUND</h2>
+    <p>I am nonchalant and aggressive person.</p></a>
+  </div>
+
+  <div class="section"><a href="job.html" target="_blank">
+    <h2 class="icon-title"><i class="fa-solid fa-briefcase"></i> JOB & WORK</h2>
+    <p>No job Until today #jobless</p></a>
+  </div>
+
+  <div class="section"><a href="qual.html" target="_blank">
+    <h2 class="icon-title"><i class="fa-solid fa-award"></i> CERTIFICATES / QUALITIES</h2>
+    <ul>
+      <li>No Certificates but qualities in HTML, CSS, JavaScript</li>
+      <li>Video editing</li>
+      <li>Sleeper</li>
+      <li>Fast learner and disciplined</li>
+      <li>Begineer digital creator</li>
+    </ul></a>
+  </div>
+
+  </div>
+
+    <section class="section" id="videos">
+        <h2 class="section-title">🎥 My Videos</h2>
+        <div class="video-grid">
+            <div class="video-card">Vide 1 coming soon</div>
+            <div class="video-card">Video 2 coming soon</div>
+            <div class="video-card">Video 3 coming soon</div>
+        </div>
+    </section>
+
+    <section class="section" id="gaming">
+        <h2 class="section-title">🎮 Gaming Experience</h2>
+        <div class="gaming-grid">
+            <div class="gaming-card">Gaming History: <br> <br>Pending</div>
+            <div class="gaming-card">Achievements:<br> <br>Pending</div>
+            <div class="gaming-card">Favorite Games:<br><br> None </div>
+        </div>
+    </section>
+
+    <section class="section" id="education">
+        <h2 class="section-title">📚 Education</h2>
+        <div class="edu-grid">
+            <div class="edu-card">School / College:<br><br> Kalika manavgyan Secondary School (sector 1) </div>
+            <div class="edu-card">Skills Learned:<br><br> HTML, CSS, JAVA ,PHP (learning soon) </div>
+            <div class="edu-card">Achievements:<br><br> Achieving soon</div>
+        </div>
+    </section>
+
+  <div class="footer">
+    <div><strong>Customer Support</strong></div>
+    <div><i class="fa-solid fa-phone"></i> Phone:<a href="tel:+9779800000000">
+ +977-9866145475</a></div>
+    <div><i class="fa-solid fa-location-dot"></i> Address:<a href="https://www.google.com/maps?q=Butwal" target="_blank">
+ Butwal, Nepal</a></div>
+    <div><i class="fa-solid fa-envelope"></i> Email:<a href="https://mail.google.com/mail/?view=cm&fs=1&to=yourgmail@gmail.com" target="_blank">
+lxmgnawali@gmail.com</a></div>
+
+    <div class="reserved">© 2025 Prajwal — All Rights Reserved</div>
+</body>
+</html>
